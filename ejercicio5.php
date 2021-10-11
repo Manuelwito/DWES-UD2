@@ -37,20 +37,9 @@
 
         $resultado = false;
 
-        if ($variable1 == false && $variable2 == false && $variable3 == true)
-            $resultado = false;
-        else if($variable1 == false && $variable2 == true && $variable3 == true)
-            $resultado = false;
-        else if($variable1 == true && $variable2 == true && $variable3 == true)
+        if ($variable1 and $variable2 and $variable3)
             $resultado = true;
-        else if($variable1 == true && $variable2 == true && $variable3 == false)
-            $resultado = false;  
-        else if($variable1 == true && $variable2 == false && $variable3 == false)
-            $resultado = false; 
-        else if($variable1 == false && $variable2 == true && $variable3 == false)
-            $resultado = false;  
-        else if($variable1 == false && $variable2 == false && $variable3 == false)
-            $resultado = false; 
+      
 
 
         echo "<style>";

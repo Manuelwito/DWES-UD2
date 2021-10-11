@@ -23,11 +23,18 @@
         //NO USAR ESTRUCTURAS DE CONTROL, SOLO MOSTRAR EL RESULTADO DE LA OPERACIÓN.
         //Guárdalo como ejercicio6.php
 
-        $opeD = '';
-        $opeS = 0;
+        $opeD = 7;
+        $opeS = 15;
 
         define('maxD' , 6);
         define('maxS' , 30);
+
+
+        intval($opeD);
+
+        echo $opeD;
+        echo '<br>';
+        echo $opeS;
 
 
 
